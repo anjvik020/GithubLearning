@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-09T14:49:09 IST" name="Suite" finished-at="2026-02-09T14:49:09 IST" duration-ms="134">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="ContactTest.contactTestWithPhoneTest()[pri:0, instance:LearningGithub.ContactTest@7c7b252e]" name="contactTestWithPhoneTest" class="LearningGithub.ContactTest"/>
+        <method signature="ContactTest.contactTestWithShippingTest()[pri:0, instance:LearningGithub.ContactTest@7c7b252e]" name="contactTestWithShippingTest" class="LearningGithub.ContactTest"/>
+        <method signature="OrganizationTest.organizationTestWithPhoneNoTest()[pri:0, instance:LearningGithub.OrganizationTest@31304f14]" name="organizationTestWithPhoneNoTest" class="LearningGithub.OrganizationTest"/>
+        <method signature="OrganizationTest.organizationTestWithShppingTest()[pri:0, instance:LearningGithub.OrganizationTest@31304f14]" name="organizationTestWithShppingTest" class="LearningGithub.OrganizationTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2026-02-09T14:49:09 IST" name="Test" finished-at="2026-02-09T14:49:09 IST" duration-ms="134">
+      <class name="LearningGithub.OrganizationTest">
+        <test-method signature="organizationTestWithPhoneNoTest()[pri:0, instance:LearningGithub.OrganizationTest@31304f14]" started-at="2026-02-09T14:49:09 IST" name="organizationTestWithPhoneNoTest" finished-at="2026-02-09T14:49:09 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organizationTestWithPhoneNoTest -->
+        <test-method signature="organizationTestWithShppingTest()[pri:0, instance:LearningGithub.OrganizationTest@31304f14]" started-at="2026-02-09T14:49:09 IST" name="organizationTestWithShppingTest" finished-at="2026-02-09T14:49:09 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- organizationTestWithShppingTest -->
+      </class> <!-- LearningGithub.OrganizationTest -->
+      <class name="LearningGithub.ContactTest">
+        <test-method signature="contactTestWithPhoneTest()[pri:0, instance:LearningGithub.ContactTest@7c7b252e]" started-at="2026-02-09T14:49:09 IST" name="contactTestWithPhoneTest" finished-at="2026-02-09T14:49:09 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactTestWithPhoneTest -->
+        <test-method signature="contactTestWithShippingTest()[pri:0, instance:LearningGithub.ContactTest@7c7b252e]" started-at="2026-02-09T14:49:09 IST" name="contactTestWithShippingTest" finished-at="2026-02-09T14:49:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactTestWithShippingTest -->
+      </class> <!-- LearningGithub.ContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
